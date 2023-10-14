@@ -16,6 +16,7 @@
 - [Step 8](#step-8)
 - [Step 9](#step-9)
 - [Step 10](#step-10)
+- [Step 11](#step-11)
 
 ## Step 1
 Download latest open.mp version server files from https://github.com/openmultiplayer/open.mp/releases
@@ -26,7 +27,7 @@ Download latest open.mp version server files from https://github.com/openmultipl
 - `open.mp-linux-x86.tar.gz` **Linux** Server
 
 ## Step 2
-Extract the `.zip` or `tar.gz` file contents on your disk
+Extract the `.zip` or `.tar.gz` file contents on your disk
 
 <kbd>![](/screenshots/Screenshot%20(3).png)</kbd>
 
@@ -67,6 +68,7 @@ Open qawno IDE program located in **Server/qawno/qawno.exe**
 Press **CTRL + O** then open your gamemode `.pwn` file in the **/gamemodes** folder
 
 ## Step 9
+
 Find 
 ```pawn
 #include <a_samp>
@@ -80,7 +82,54 @@ then press **F5** to compile.
 If you are get error or warning, See [Compiler errors and warnings](#compiler-errors-and-warnings)
 
 ## Step 10
-pass
+Open **config.json** file with Notepad or other IDEs
+
+## Step 11
+Edit **config.json**
+
+Find
+```json
+"main_scripts": [
+    "test 1"
+],
+```
+replace with
+```json
+"main_scripts": [
+    "your_gamemode_amx_file_name"
+],
+```
+
+*______________________________________________________________________*
+
+Find
+```json
+"legacy_plugins": [],
+```
+Specify required plugins
+```json
+"legacy_plugins": [
+    "mysql",
+    "sscanf",
+    "streamer",
+    "Pawn.CMD",
+    "Pawn.RakNet",
+    "sampvoice"
+],
+```
+
+*______________________________________________________________________*
+
+Find
+```json
+"side_scripts": [],
+```
+Specify your filterscripts
+```json
+"side_scripts": [
+    "filterscripts/file_name"
+],
+```
 
 ## Compiler errors and warnings
 - **warning 213: tag mismatch: expected tag "?", but found none ("_")**:
@@ -93,11 +142,17 @@ You can ignore it for now with:
 // If the warning still occurs
 // Use #pragma warning disable 213
 ```
+
+*______________________________________________________________________*
+
 - **warning 234: function is deprecated (symbol "TextDrawColor") Use `TextDrawColour**
 
 Press **CTRL + F** in qawno and replace all `TextDrawColor` to `TextDrawColour`
 
+*______________________________________________________________________*
+
 - **warning 214: possibly a "const" array argument was intended: "?"**
+- **warning 239: literal array/string passed to a non-const parameter**
 
 e.g.
 ```pawn
@@ -108,6 +163,19 @@ public MyFunction(string[])
 public MyFunction(const string[])
 ```
 
-- **warning 239: literal array/string passed to a non-const parameter**
+*______________________________________________________________________*
 
-Get https://github.com/pawn-lang/pawn-stdlib and https://github.com/pawn-lang/samp-stdlib
+- **error 025: function heading differs from prototype**
+
+e.g.
+```pawn
+public OnVehicleMod(playerid, vehicleid, componentid)
+
+public OnVehiclePaintjob(playerid, vehicleid, paintjobid)
+```
+->
+```pawn
+public OnVehicleMod(playerid, vehicleid, component)
+
+public OnVehiclePaintjob(playerid, vehicleid, paintjob)
+```
