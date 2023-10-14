@@ -38,7 +38,7 @@ Extract the `.zip` or `.tar.gz` file contents on your disk
 
 ## Step 3
 
-Create these folders in the **Server** folder:
+Create these folders in the **Server** directory:
 - filterscripts
 - gamemodes
 - plugins
