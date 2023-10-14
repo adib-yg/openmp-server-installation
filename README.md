@@ -15,6 +15,7 @@
 - [Step 7](#step-7)
 - [Step 8](#step-8)
 - [Step 9](#step-9)
+- [Step 10](#step-10)
 
 ## Step 1
 Download latest open.mp version server files from https://github.com/openmultiplayer/open.mp/releases
@@ -74,6 +75,39 @@ and replace with
 ```pawn
 #include <open.mp>
 ```
-then press **F5** to compile
+then press **F5** to compile.
+
+If you are get error or warning, See [Compiler errors and warnings](#compiler-errors-and-warnings)
 
 ## Step 10
+pass
+
+## Compiler errors and warnings
+- **warning 213: tag mismatch: expected tag "?", but found none ("_")**:
+
+You can ignore it for now with:
+```pawn
+#define NO_TAGS
+#include <open.mp>
+
+// If the warning still occurs
+// Use #pragma warning disable 213
+```
+- **warning 234: function is deprecated (symbol "TextDrawColor") Use `TextDrawColour**
+
+Press **CTRL + F** in qawno and replace all `TextDrawColor` to `TextDrawColour`
+
+- **warning 214: possibly a "const" array argument was intended: "?"**
+
+e.g.
+```pawn
+public MyFunction(string[])
+```
+->
+```pawn
+public MyFunction(const string[])
+```
+
+- **warning 239: literal array/string passed to a non-const parameter**
+
+Get https://github.com/pawn-lang/pawn-stdlib and https://github.com/pawn-lang/samp-stdlib
