@@ -23,7 +23,7 @@
 
 ## Step 1
 
-Download latest open.mp server files from https://github.com/openmultiplayer/open.mp/releases
+Download the latest open.mp server files from https://github.com/openmultiplayer/open.mp/releases
 
 <kbd>![](/screenshots/Screenshot%20(1).png)</kbd>
 
