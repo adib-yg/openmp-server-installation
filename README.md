@@ -218,4 +218,4 @@ If you still have issues running the server, please join the [official open.mp D
 
 https://discord.gg/samp
 
-Ask in [#openmp-support](https://discord.com/channels/231799104731217931/966398440051445790)
+Ask at [#openmp-support](https://discord.com/channels/231799104731217931/966398440051445790)
