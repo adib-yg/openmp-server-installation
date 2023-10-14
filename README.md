@@ -1,4 +1,5 @@
 # open.mp Server Installation
+
 [Open Multi Player](https://www.open.mp) server installation tutorial!
 
 **This tutorial is for those who want to convert their gamemode from SA:MP server to open.mp server**
@@ -6,6 +7,7 @@
 *Note: If you are using the FCNPC plugin, please stop for now because this plugin does not work for open.mp at the moment.*
 
 ## Steps
+
 - [Step 1](#step-1)
 - [Step 2](#step-2)
 - [Step 3](#step-3)
@@ -17,8 +19,10 @@
 - [Step 9](#step-9)
 - [Step 10](#step-10)
 - [Step 11](#step-11)
+- [Step 12](#step-12)
 
 ## Step 1
+
 Download latest open.mp version server files from https://github.com/openmultiplayer/open.mp/releases
 
 <kbd>![](/screenshots/Screenshot%20(1).png)</kbd>
@@ -27,11 +31,13 @@ Download latest open.mp version server files from https://github.com/openmultipl
 - `open.mp-linux-x86.tar.gz` **Linux** Server
 
 ## Step 2
+
 Extract the `.zip` or `.tar.gz` file contents on your disk
 
 <kbd>![](/screenshots/Screenshot%20(3).png)</kbd>
 
 ## Step 3
+
 Create these folders in the **Server** folder:
 - filterscripts
 - gamemodes
@@ -41,15 +47,22 @@ Create these folders in the **Server** folder:
 <kbd>![](/screenshots/Screenshot%20(4).png)</kbd>
 
 ## Step 4
+
 Put your gamemode `.pwn` file in the **gamemodes** folder
 
 ## Step 5
+
 Put required includes (e.g. `sscanf2.inc`, `streamer.inc`) in the **qawno/include** folder
 
 ## Step 6
+
 Put required plugins (e.g. `sscanf2.dll`, `streamer.dll`) in the **plugins** folder
 
-**Important Note:** If you use these plugins, you must put a version of the plugin that is compatible with omp!
+*______________________________________________________________________*
+
+**Important Note:** If you use the following plugins in table, you must put a version of the plugin that is compatible with omp!
+
+**Important Note:** Put the following plugins in the **components** folder, not in the **plugins** folder!
 
 | Plugin  | OMP |
 | ------ | --- |
@@ -60,11 +73,13 @@ Put required plugins (e.g. `sscanf2.dll`, `streamer.dll`) in the **plugins** fol
 | YSF  | You don't need YSF because open.mp already declared most of the same natives |
 
 ## Step 7
+
 Open qawno IDE program located in **Server/qawno/qawno.exe**
 
 <kbd>![](/screenshots/Screenshot%20(5).png)</kbd>
 
 ## Step 8
+
 Press **CTRL + O** then open your gamemode `.pwn` file in the **/gamemodes** folder
 
 ## Step 9
@@ -73,7 +88,7 @@ Find
 ```pawn
 #include <a_samp>
 ```
-and replace with
+replace with
 ```pawn
 #include <open.mp>
 ```
@@ -82,9 +97,11 @@ then press **F5** to compile.
 If you are get error or warning, See [Compiler errors and warnings](#compiler-errors-and-warnings)
 
 ## Step 10
+
 Open **config.json** file with Notepad or other IDEs
 
 ## Step 11
+
 Edit **config.json**
 
 Find
@@ -109,12 +126,12 @@ Find
 Specify required plugins
 ```json
 "legacy_plugins": [
+    "crashdetect",
     "mysql",
     "sscanf",
     "streamer",
-    "Pawn.CMD",
-    "Pawn.RakNet",
-    "sampvoice"
+    "PawnPlus",
+    "pawn-memory"
 ],
 ```
 
@@ -129,6 +146,20 @@ Specify your filterscripts
 "side_scripts": [
     "filterscripts/file_name"
 ],
+```
+
+## Step 12
+
+Run the server
+
+**Windows**
+
+Open `omp-server.exe`
+
+**Linux**
+
+```bash
+./omp-server
 ```
 
 ## Compiler errors and warnings
