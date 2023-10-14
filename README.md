@@ -148,6 +148,8 @@ Specify your filterscripts
 ],
 ```
 
+Press **CTRL + S** to save changes.
+
 ## Step 12
 
 Run the server
