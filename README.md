@@ -62,7 +62,7 @@ Put required plugins (e.g. `sscanf2.dll`, `streamer.dll`) in the **plugins** fol
 
 **Important Note:** If you use the following plugins in table, you must put a version of the plugin that is compatible with omp!
 
-**Important Note:** Put the following plugins in the **components** folder, not in the **plugins** folder!
+**Important Note:** Put the following plugins in the **../components** folder, not in the **../plugins** folder!
 
 | Plugin  | OMP |
 | ------ | --- |
@@ -80,7 +80,7 @@ Open qawno IDE program located in **Server/qawno/qawno.exe**
 
 ## Step 8
 
-Press **CTRL + O** then open your gamemode `.pwn` file in the **/gamemodes** folder
+Press **CTRL + O** then open your gamemode `.pwn` file in the **../gamemodes** folder
 
 ## Step 9
 
