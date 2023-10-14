@@ -212,3 +212,8 @@ public OnVehicleMod(playerid, vehicleid, component)
 
 public OnVehiclePaintjob(playerid, vehicleid, paintjob)
 ```
+
+## Help
+If you still have issues running the server, please join the open.mp Discord server
+https://discord.gg/samp
+*Ask in #pawn-help*
