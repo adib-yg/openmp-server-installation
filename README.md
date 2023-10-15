@@ -154,11 +154,11 @@ Press **CTRL + S** to save changes.
 
 Run the server
 
-**Windows**
+- **Windows**
 
-Open `omp-server.exe`
+Open the `omp-server.exe` program
 
-**Linux**
+- **Linux**
 
 ```bash
 ./omp-server
