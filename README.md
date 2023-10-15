@@ -206,12 +206,16 @@ e.g.
 public OnVehicleMod(playerid, vehicleid, componentid)
 
 public OnVehiclePaintjob(playerid, vehicleid, paintjobid)
+
+public OnVehicleRespray(playerid, vehicleid, color1, color2)
 ```
 ->
 ```pawn
 public OnVehicleMod(playerid, vehicleid, component)
 
 public OnVehiclePaintjob(playerid, vehicleid, paintjob)
+
+public OnVehicleRespray(playerid, vehicleid, colour1, colour2)
 ```
 
 ## Help
