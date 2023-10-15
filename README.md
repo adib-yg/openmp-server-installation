@@ -56,7 +56,7 @@ Put required includes (e.g. `sscanf2.inc`, `streamer.inc`) in the **qawno/includ
 
 ## Step 6
 
-Put required plugins (e.g. `sscanf2.dll`, `streamer.dll`) in the **plugins** folder
+Put required plugins (e.g. `sscanf.dll`, `streamer.dll`) in the **plugins** folder
 
 *______________________________________________________________________*
 
