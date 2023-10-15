@@ -74,7 +74,7 @@ Put required plugins (e.g. `sscanf2.dll`, `streamer.dll`) in the **plugins** fol
 
 ## Step 7
 
-Open qawno IDE program located in **Server/qawno/qawno.exe**
+Open the qawno IDE program located at **Server/qawno/qawno.exe**
 
 <kbd>![](/screenshots/Screenshot%20(5).png)</kbd>
 
