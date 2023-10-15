@@ -208,6 +208,8 @@ public OnVehicleMod(playerid, vehicleid, componentid)
 public OnVehiclePaintjob(playerid, vehicleid, paintjobid)
 
 public OnVehicleRespray(playerid, vehicleid, color1, color2)
+
+public OnPlayerEditAttachedObject(playerid, response, index, modelid, boneid, Float:fOffsetX, Float:fOffsetY, Float:fOffsetZ, Float:fRotX, Float:fRotY, Float:fRotZ, Float:fScaleX, Float:fScaleY, Float:fScaleZ)
 ```
 ->
 ```pawn
@@ -216,6 +218,8 @@ public OnVehicleMod(playerid, vehicleid, component)
 public OnVehiclePaintjob(playerid, vehicleid, paintjob)
 
 public OnVehicleRespray(playerid, vehicleid, colour1, colour2)
+
+public OnPlayerEditAttachedObject(playerid, EDIT_RESPONSE:response, index, modelid, boneid, Float:fOffsetX, Float:fOffsetY, Float:fOffsetZ, Float:rotationX, Float:rotationY, Float:rotationZ, Float:scaleX, Float:scaleY, Float:scaleZ)
 ```
 
 ## Help
