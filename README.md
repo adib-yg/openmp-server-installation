@@ -71,6 +71,7 @@ Put required plugins (e.g. `sscanf2.dll`, `streamer.dll`) in the **plugins** fol
 | sampvoice  | https://github.com/AmyrAhmady/sampvoice/releases/tag/v3.1.5-omp |
 | SKY  | Use Pawn.RakNet instead |
 | YSF  | You don't need YSF because open.mp already declared most of the same natives |
+| FCNPC  | Currently not supported |
 
 ## Step 7
 
