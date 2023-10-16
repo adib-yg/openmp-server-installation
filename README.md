@@ -173,7 +173,21 @@ Open the `omp-server.exe` program
 ## Compiler errors and warnings
 - **warning 213: tag mismatch: expected tag "?", but found none ("_")**:
 
-You can ignore it for now with:
+e.g.
+
+```pawn
+SetPlayerControllable(playerid, 1);
+// ->
+SetPlayerControllable(playerid, true);
+
+
+// Or
+TextDrawFont(textid, 1);
+// ->
+TextDrawFont(textid, TEXT_DRAW_FONT:1);
+```
+
+But you can ignore it for now:
 ```pawn
 #define NO_TAGS
 #include <open.mp>
