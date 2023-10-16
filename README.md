@@ -101,6 +101,8 @@ If you are get error or warning, See [Compiler errors and warnings](#compiler-er
 
 Open **config.json** file with Notepad or other IDEs
 
+<kbd>![](/screenshots/Screenshot%20(9).png)</kbd>
+
 ## Step 11
 
 Edit **config.json**
@@ -159,6 +161,8 @@ Run the server
 
 Open the `omp-server.exe` program
 
+<kbd>![](/screenshots/Screenshot%20(10).png)</kbd>
+
 - **Linux**
 
 ```bash
@@ -182,6 +186,8 @@ You can ignore it for now with:
 - **warning 234: function is deprecated (symbol "TextDrawColor") Use `TextDrawColour**
 
 Press **CTRL + F** in qawno and replace all `TextDrawColor` to `TextDrawColour`
+
+<kbd>![](/screenshots/Screenshot%20(7).png)</kbd>
 
 *______________________________________________________________________*
 
