@@ -180,8 +180,6 @@ SetPlayerControllable(playerid, 1);
 // ->
 SetPlayerControllable(playerid, true);
 
-
-// Or
 TextDrawFont(textid, 1);
 // ->
 TextDrawFont(textid, TEXT_DRAW_FONT:1);
