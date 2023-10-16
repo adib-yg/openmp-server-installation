@@ -1,5 +1,6 @@
 # open.mp Server Installation
 
+<a href="https://www.open.mp"><img src="/screenshots/open-mp-logo.png" width=50 height=50/></a>
 [Open Multiplayer](https://www.open.mp) server installation tutorial!
 
 **This tutorial is for those who want to convert their gamemode from SA:MP server to open.mp server**
