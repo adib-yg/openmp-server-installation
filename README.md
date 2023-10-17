@@ -108,6 +108,8 @@ Open **config.json** file with Notepad or other IDEs
 
 Edit **config.json**
 
+<kbd>![](/screenshots/Screenshot%20(11).png)</kbd>
+
 Find
 ```json
 "main_scripts": [
