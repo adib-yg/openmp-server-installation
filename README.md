@@ -212,6 +212,18 @@ Press **CTRL + F** in qawno and replace all `TextDrawColor` to `TextDrawColour`
 
 *______________________________________________________________________*
 
+- **warning 234: function is deprecated (symbol "GetPlayerPoolSize") This function is fundamentally broken.**
+- **warning 234: function is deprecated (symbol "GetVehiclePoolSize") This function is fundamentally broken.**
+- **warning 234: function is deprecated (symbol "GetActorPoolSize") This function is fundamentally broken.**
+
+Replace `GetPlayerPoolSize()` with `MAX_PLAYERS`
+
+Replace `GetVehiclePoolSize()` with `MAX_VEHICLES`
+
+Replace `GetActorPoolSize()` with `MAX_ACTORS`
+
+*______________________________________________________________________*
+
 - **warning 214: possibly a "const" array argument was intended: "?"**
 - **warning 239: literal array/string passed to a non-const parameter**
 
