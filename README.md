@@ -5,7 +5,8 @@
 
 **This tutorial is for those who want to convert their gamemode from SA:MP server to open.mp server**
 
-*Note: If you are using the FCNPC plugin, please stop for now because this plugin does not work for open.mp currently.*
+> [!NOTE] 
+> *If you are using the FCNPC plugin, please stop for now because this plugin does not work for open.mp currently.*
 
 ## Steps
 
@@ -61,9 +62,10 @@ Put required plugins (e.g. `sscanf.dll`, `streamer.dll`) in the **plugins** fold
 
 *______________________________________________________________________*
 
-**Important Note:** If you use the following plugins in table, you must put a version of the plugin that is compatible with omp!
-
-**Important Note:** Put the following plugins in the **../components** folder, not in the **../plugins** folder!
+> [!IMPORTANT] 
+> If you use the following plugins in table, you must put a version of the plugin that is compatible with omp!
+> 
+> Put the following plugins in the **../components** folder, not in the **../plugins** folder!
 
 | Plugin  | OMP |
 | ------ | --- |
