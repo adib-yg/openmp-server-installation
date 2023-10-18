@@ -34,7 +34,7 @@ Download the latest version of open.mp server files from https://github.com/open
 
 ## Step 2
 
-Extract the `.zip` or `.tar.gz` file contents on your disk
+Extract the `.zip` or `.tar.gz` archive contents on your disk
 
 <kbd>![](/screenshots/Screenshot%20(3).png)</kbd>
 
