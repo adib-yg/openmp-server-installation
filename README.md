@@ -207,6 +207,9 @@ Press **CTRL + F** in qawno and replace all `TextDrawColor` to `TextDrawColour`
 
 <kbd>![](/screenshots/Screenshot%20(7).png)</kbd>
 
+> [!NOTE]
+> There are many other deprecated functions, you just need to replace them with the new function name.
+
 *______________________________________________________________________*
 
 - **warning 214: possibly a "const" array argument was intended: "?"**
