@@ -98,7 +98,8 @@ replace with
 ```
 then press **F5** to compile.
 
-If you are get error or warning, See [Compiler errors and warnings](#compiler-errors-and-warnings)
+> [!NOTE]
+> If you are get error or warning, See [Compiler errors and warnings](#compiler-errors-and-warnings)
 
 ## Step 10
 
