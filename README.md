@@ -84,7 +84,7 @@ Open the qawno IDE program located at **Server/qawno/qawno.exe**
 
 ## Step 8
 
-Press **CTRL + O** then open your gamemode `.pwn` file in the **../gamemodes** folder
+Press **CTRL + O** then go to the **../gamemodes** folder and open your gamemode `.pwn` file
 
 ## Step 9
 
