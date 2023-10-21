@@ -56,6 +56,9 @@ Put your gamemode `.pwn` file in the **gamemodes** folder
 
 Put required includes (e.g. `sscanf2.inc`, `streamer.inc`) in the **qawno/include** folder
 
+> [!NOTE]
+> If you are using the YSI-4 includes in your game mode, update to [YSI-5.x](https://github.com/pawn-lang/YSI-Includes/releases)
+
 ## Step 6
 
 Put required plugins (e.g. `sscanf.dll`, `streamer.dll`) in the **plugins** folder
