@@ -190,7 +190,7 @@ SetPlayerControllable(playerid, true);
 
 TextDrawFont(textid, 1);
 // ->
-TextDrawFont(textid, TEXT_DRAW_FONT:1);
+TextDrawFont(textid, TEXT_DRAW_FONT_1);
 ```
 
 But you can ignore it for now:
