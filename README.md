@@ -227,6 +227,12 @@ Replace `GetActorPoolSize()` with `MAX_ACTORS`
 
 *______________________________________________________________________*
 
+- **warning 234: function is deprecated (symbol "SHA256_PassHash") Use BCrypt for hashing passwords**
+
+Use the [samp-bcrypt](https://github.com/Sreyas-Sreelal/samp-bcrypt) plugin to hash passwords
+
+*______________________________________________________________________*
+
 - **warning 214: possibly a "const" array argument was intended: "?"**
 - **warning 239: literal array/string passed to a non-const parameter**
 
