@@ -75,9 +75,11 @@ Put required plugins (e.g. `sscanf.dll`, `streamer.dll`) in the **plugins** fold
 | Pawn.CMD  | https://github.com/katursis/Pawn.CMD/releases/tag/3.4.0-omp |
 | Pawn.RakNet  | https://github.com/katursis/Pawn.RakNet/releases/tag/1.6.0-omp |
 | sampvoice  | https://github.com/AmyrAhmady/sampvoice/releases/tag/v3.1.5-omp |
+| discord-connector  | https://github.com/maddinat0r/samp-discord-connector/releases/tag/v0.3.6-pre |
 | SKY  | Use Pawn.RakNet instead |
 | YSF  | You don't need YSF because open.mp already declared most of the same natives |
 | FCNPC  | Currently not supported |
+
 
 ## Step 7
 
