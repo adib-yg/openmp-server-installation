@@ -151,13 +151,13 @@ Specify required plugins
 
 Find
 ```json
-"side_scripts": [],
+"side_scripts": []
 ```
 Specify your filterscripts
 ```json
 "side_scripts": [
     "filterscripts/file_name"
-],
+]
 ```
 
 Press **CTRL + S** to save changes.
