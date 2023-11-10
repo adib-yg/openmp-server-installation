@@ -1,9 +1,9 @@
-# open.mp Server Installation
+<a href="https://www.open.mp"><img src="/screenshots/open-mp-logo.png?raw=true" width="128" height="128" align="left"></a>
+<h1>open.mp Server Installation</h1>
+<a href="https://www.open.mp">Open Multiplayer</a> server installation tutorial!
+<br><br>
 
-<a href="https://www.open.mp"><img src="/screenshots/open-mp-logo.png" width=50 height=50/></a>
-[Open Multiplayer](https://www.open.mp) server installation tutorial!
-
-**This tutorial is for those who want to transfer their gamemode from SA:MP server to open.mp server**
+**This tutorial is for those who want to transfer their gamemode from SA:MP server to open.mp server.**
 
 > [!NOTE] 
 > *If you are using the FCNPC plugin, please stop for now because this plugin does not work for open.mp currently.*
