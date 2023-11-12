@@ -189,7 +189,9 @@ For example:
 TogglePlayerControllable(playerid, 1);
 // ->
 TogglePlayerControllable(playerid, true);
+```
 
+```pawn
 TextDrawFont(textid, 1);
 // ->
 TextDrawFont(textid, TEXT_DRAW_FONT_1);
@@ -243,12 +245,24 @@ For example:
 
 ```pawn
 public MyFunction(string[])
+// ->
+public MyFunction(const string[])
 ```
 
-To:
+*______________________________________________________________________*
+
+- **error 025: function heading differs from prototype**
 
 ```pawn
-public MyFunction(const string[])
+public OnPlayerDeath(playerid, killerid, reason)
+// ->
+public OnPlayerDeath(playerid, killerid, WEAPON:reason)
+```
+
+```pawn
+public OnPlayerEditAttachedObject(playerid, response, index, modelid, boneid, Float:fOffsetX, Float:fOffsetY, Float:fOffsetZ, Float:fRotX, Float:fRotY, Float:fRotZ, Float:fScaleX, Float:fScaleY, Float:fScaleZ)
+// ->
+public OnPlayerEditAttachedObject(playerid, EDIT_RESPONSE:response, index, modelid, boneid, Float:fOffsetX, Float:fOffsetY, Float:fOffsetZ, Float:fRotX, Float:fRotY, Float:fRotZ, Float:fScaleX, Float:fScaleY, Float:fScaleZ)
 ```
 
 *______________________________________________________________________*
