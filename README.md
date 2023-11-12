@@ -186,9 +186,9 @@ Open the `omp-server.exe` program
 For example:
 
 ```pawn
-SetPlayerControllable(playerid, 1);
+TogglePlayerControllable(playerid, 1);
 // ->
-SetPlayerControllable(playerid, true);
+TogglePlayerControllable(playerid, true);
 
 TextDrawFont(textid, 1);
 // ->
