@@ -247,6 +247,13 @@ public MyFunction(string[])
 public MyFunction(const string[])
 ```
 
+*______________________________________________________________________*
+
+> [!NOTE]
+> There is also an upgrade tool that attempts to find old untagged and const-incorrect code and upgrade it.
+>
+> https://github.com/openmultiplayer/upgrade
+
 ## Help
 If you still have issues running the server, please join the [official open.mp Discord server](https://discord.gg/samp)
 
