@@ -273,6 +273,8 @@ public OnPlayerEditAttachedObject(playerid, EDIT_RESPONSE:response, index, model
 > There is also an upgrade tool that attempts to find old untagged and const-incorrect code and upgrade it.
 >
 > https://github.com/openmultiplayer/upgrade
+>
+>  Already included in `/qawno/upgrader` folder.
 
 ## Help
 If you still have issues running the server, please join the [official open.mp Discord server](https://discord.gg/samp)
