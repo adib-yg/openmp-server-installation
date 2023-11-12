@@ -253,6 +253,8 @@ public MyFunction(const string[])
 
 - **error 025: function heading differs from prototype**
 
+For example:
+
 ```pawn
 public OnPlayerDeath(playerid, killerid, reason)
 // ->
