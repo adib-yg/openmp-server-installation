@@ -183,7 +183,7 @@ Open the `omp-server.exe` program
 ## Compiler errors and warnings
 - **warning 213: tag mismatch: expected tag "?", but found none ("_")**:
 
-For example
+For example:
 
 ```pawn
 SetPlayerControllable(playerid, 1);
@@ -196,6 +196,7 @@ TextDrawFont(textid, TEXT_DRAW_FONT_1);
 ```
 
 But you can ignore it for now:
+
 ```pawn
 #define NO_TAGS
 #include <open.mp>
@@ -238,11 +239,14 @@ Use the [samp-bcrypt](https://github.com/Sreyas-Sreelal/samp-bcrypt) plugin for 
 - **warning 214: possibly a "const" array argument was intended: "?"**
 - **warning 239: literal array/string passed to a non-const parameter**
 
-For example
+For example:
+
 ```pawn
 public MyFunction(string[])
 ```
-->
+
+To:
+
 ```pawn
 public MyFunction(const string[])
 ```
