@@ -197,6 +197,14 @@ TextDrawFont(textid, 1);
 TextDrawFont(textid, TEXT_DRAW_FONT_1);
 ```
 
+
+```pawn
+GivePlayerWeapon(playerid, 4, 1);
+// ->
+GivePlayerWeapon(playerid, WEAPON_KNIFE, 1);
+GivePlayerWeapon(playerid, WEAPON:4, 1);
+```
+
 But you can ignore it for now:
 
 ```pawn
