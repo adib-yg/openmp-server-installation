@@ -31,7 +31,7 @@ Download the latest version of open.mp server files from https://github.com/open
 
 - `open.mp-win-x86.zip` **Windows** Server
 - `open.mp-linux-x86.tar.gz` **Linux** Server
-- `open.mp-linux-x86-dynssl.tar.gz` **Linux** Server ([Dynamic SSL](https://handwiki.org/wiki/Dynamic_SSL))
+- `open.mp-linux-x86-dynssl.tar.gz` **Linux** Server (Dynamic SSL)
 
 ## Step 2
 
