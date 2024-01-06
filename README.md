@@ -283,6 +283,13 @@ public OnPlayerEditAttachedObject(playerid, EDIT_RESPONSE:response, index, model
 >
 >  Already included in `/qawno/upgrader` folder.
 
+## Useful documents
+If you are completely new to Pawn programming: [readme-beginner](https://github.com/openmultiplayer/omp-stdlib/blob/master/documentation/readme-beginner.md)
+
+If you are an intermediate at Pawn programming: [readme-intermediate](https://github.com/openmultiplayer/omp-stdlib/blob/master/documentation/readme-intermediate.md)
+
+If you are an expert at Pawn programming: [readme-expert](https://github.com/openmultiplayer/omp-stdlib/blob/master/documentation/readme-expert.md)
+
 ## Help
 If you still have issues running the server, please join the [official open.mp Discord server](https://discord.gg/samp)
 
