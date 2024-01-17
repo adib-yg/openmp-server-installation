@@ -108,7 +108,7 @@ then press **F5** to compile.
 
 ## Step 10
 
-Open **config.json** file with Notepad or other IDEs
+Open **[config.json](https://www.open.mp/docs/server/config.json)** file with Notepad or other IDEs
 
 <kbd>![](/screenshots/Screenshot%20(9).png)</kbd>
 
