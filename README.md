@@ -162,6 +162,25 @@ Specify your filterscripts
 ]
 ```
 
+*______________________________________________________________________*
+
+Find
+```json
+"rcon": {
+    "allow_teleport": false,
+    "enable": false,
+    "password": "changeme"
+},
+```
+Enter strong password for rcon password:
+```json
+"rcon": {
+    "allow_teleport": false,
+    "enable": false,
+    "password": "151sd80hgse32q1oi0v8dsge166"
+},
+```
+
 Press **CTRL + S** to save changes.
 
 ## Step 12
