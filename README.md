@@ -42,7 +42,7 @@ Extract the `.zip` or `.tar.gz` archive contents on your disk
 <kbd>![](/screenshots/Screenshot%20(3).png)</kbd>
 
 > [!NOTE]
-> **components:** open.mp plugins
+> **components:** open.mp components
 > 
 > **filterscripts:** Your server filter script files (side scripts)
 > 
