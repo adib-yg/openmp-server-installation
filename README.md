@@ -185,7 +185,7 @@ Find
 "rcon": {
     "allow_teleport": false,
     "enable": false,
-    "password": "changeme"
+    "password": "changeme1"
 },
 ```
 Enter strong password for rcon password:
