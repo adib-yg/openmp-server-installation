@@ -127,7 +127,7 @@ Find
 replace with
 ```json
 "main_scripts": [
-    "your_gamemode_amx_file_name"
+    "your_gamemode_amx_file_name 1"
 ],
 ```
 
