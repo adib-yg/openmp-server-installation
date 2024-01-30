@@ -137,7 +137,7 @@ Edit **config.json**
 Find
 ```json
 "main_scripts": [
-    "test 1"
+    "gungame 1"
 ],
 ```
 replace with
