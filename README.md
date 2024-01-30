@@ -8,7 +8,7 @@
 > [!NOTE] 
 > *If you are using the FCNPC plugin, please stop for now because this plugin does not work for open.mp currently.*
 
-## Steps
+## Contents
 
 - [Step 1](#step-1)
 - [Step 2](#step-2)
@@ -21,11 +21,13 @@
 - [Step 9](#step-9)
 - [Step 10](#step-10)
 - [Step 11](#step-11)
-- [Step 12](#step-12)
+- [Compiler errors and warnings](#compiler-errors-and-warnings)
+- [Useful documents](#useful-documents)
+- [Help](#help)
 
 ## Step 1
 
-Download the latest version of open.mp server files from https://github.com/openmultiplayer/open.mp/releases
+Download the latest version of open.mp server files from [https://github.com/openmultiplayer/open.mp/releases](https://github.com/openmultiplayer/open.mp/releases/latest)
 
 <kbd>![](/screenshots/Screenshot%20(1).png)</kbd>
 
@@ -39,28 +41,42 @@ Extract the `.zip` or `.tar.gz` archive contents on your disk
 
 <kbd>![](/screenshots/Screenshot%20(3).png)</kbd>
 
+> [!NOTE]
+> **components:** open.mp plugins
+> 
+> **filterscripts:** Your server filter script files (side scripts)
+> 
+> **gamemodes:** Your server game mode files (main scripts)
+> 
+> **models:** Your server custom models (textures .txd .dff)
+> 
+> **plugins:** Your server plugin files (legacy plugins)
+> 
+> **qawno:** Pawn editor program and your server includes
+> 
+> **scriptfiles:** INI files or other stuff.
+> 
+> 
+> **bans.json:** Ban list file
+> 
+> **config.json:** Server configuration file
+> 
+> **omp-server.exe:** open.mp server program
+> 
+> **omp-server.pdb:** open.mp server debugging file
+
 ## Step 3
-
-Create these folders in the **Server** directory:
-- filterscripts
-- gamemodes
-- plugins
-- scriptfiles
-  
-<kbd>![](/screenshots/Screenshot%20(4).png)</kbd>
-
-## Step 4
 
 Put your gamemode `.pwn` file in the **gamemodes** folder
 
-## Step 5
+## Step 4
 
 Put required includes (e.g. `sscanf2.inc`, `streamer.inc`) in the **qawno/include** folder
 
 > [!NOTE]
 > If you are using the YSI-4 includes in your game mode, update to [YSI-5.x](https://github.com/pawn-lang/YSI-Includes/releases)
 
-## Step 6
+## Step 5
 
 Put required plugins (e.g. `sscanf.dll`, `streamer.dll`) in the **plugins** folder
 
@@ -81,17 +97,17 @@ Put required plugins (e.g. `sscanf.dll`, `streamer.dll`) in the **plugins** fold
 | YSF               | You don't need YSF because open.mp already declared most of the same natives |
 | FCNPC             | Currently not supported                                                      |
 
-## Step 7
+## Step 6
 
 Open the qawno IDE program located at **Server/qawno/qawno.exe**
 
 <kbd>![](/screenshots/Screenshot%20(5).png)</kbd>
 
-## Step 8
+## Step 7
 
 Press **CTRL + O** then go to the **../gamemodes** folder and open your gamemode `.pwn` file
 
-## Step 9
+## Step 8
 
 Find 
 ```pawn
@@ -106,13 +122,13 @@ then press **F5** to compile.
 > [!NOTE]
 > If you are get error or warning, See [Compiler errors and warnings](#compiler-errors-and-warnings)
 
-## Step 10
+## Step 9
 
 Open **[config.json](https://www.open.mp/docs/server/config.json)** file with Notepad or other IDEs
 
 <kbd>![](/screenshots/Screenshot%20(9).png)</kbd>
 
-## Step 11
+## Step 10
 
 Edit **config.json**
 
@@ -183,7 +199,7 @@ Enter strong password for rcon password:
 
 Press **CTRL + S** to save changes.
 
-## Step 12
+## Step 11
 
 Run the server
 
