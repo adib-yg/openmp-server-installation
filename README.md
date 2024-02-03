@@ -257,8 +257,12 @@ Press **CTRL + F** in qawno and replace all `TextDrawColor` to `TextDrawColour`
 
 <kbd>![](/screenshots/Screenshot%20(7).png)</kbd>
 
-> [!NOTE]
-> There are many other deprecated functions, you just need to replace them with the new function name.
+Or if you prefer you can use the mixed spellings:
+
+```pawn
+#define MIXED_SPELLINGS
+#include <open.mp>
+```
 
 *______________________________________________________________________*
 
