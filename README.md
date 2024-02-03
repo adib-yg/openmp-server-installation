@@ -199,6 +199,9 @@ Enter strong password for rcon password:
 
 Press **CTRL + S** to save changes.
 
+> [!TIP]
+> There is a guide on how to convert `server.cfg` to `config.json` at https://www.open.mp/docs/server/config.json
+
 ## Step 11
 
 Run the server
