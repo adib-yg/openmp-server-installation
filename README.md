@@ -80,7 +80,7 @@ Put required includes (e.g. `sscanf2.inc`, `streamer.inc`) in the **qawno/includ
 
 Put required plugins (e.g. `sscanf.dll`, `streamer.dll`) in the **plugins** folder
 
-*______________________________________________________________________*
+<hr />
 
 > [!IMPORTANT] 
 > If you use the following plugins in table, you must put a version of the plugin that is compatible with omp!
@@ -147,7 +147,7 @@ replace with
 ],
 ```
 
-*______________________________________________________________________*
+<hr />
 
 Find
 ```json
@@ -165,7 +165,7 @@ Specify required plugins
 ],
 ```
 
-*______________________________________________________________________*
+<hr />
 
 Find
 ```json
@@ -178,7 +178,7 @@ Specify your filterscripts
 ]
 ```
 
-*______________________________________________________________________*
+<hr />
 
 Find
 ```json
@@ -252,7 +252,7 @@ But you can ignore it for now:
 // Use #pragma warning disable 213
 ```
 
-*______________________________________________________________________*
+<hr />
 
 - **warning 234: function is deprecated (symbol "TextDrawColor") Use `TextDrawColour**
 
@@ -267,7 +267,7 @@ Or if you prefer you can use the mixed spellings:
 #include <open.mp>
 ```
 
-*______________________________________________________________________*
+<hr />
 
 - **warning 234: function is deprecated (symbol "GetPlayerPoolSize") This function is fundamentally broken.**
 - **warning 234: function is deprecated (symbol "GetVehiclePoolSize") This function is fundamentally broken.**
@@ -279,13 +279,13 @@ Replace `GetVehiclePoolSize()` with `MAX_VEHICLES`
 
 Replace `GetActorPoolSize()` with `MAX_ACTORS`
 
-*______________________________________________________________________*
+<hr />
 
 - **warning 234: function is deprecated (symbol "SHA256_PassHash") Use BCrypt for hashing passwords**
 
 Use the [samp-bcrypt](https://github.com/Sreyas-Sreelal/samp-bcrypt) plugin for hashing passwords
 
-*______________________________________________________________________*
+<hr />
 
 - **warning 214: possibly a "const" array argument was intended: "?"**
 - **warning 239: literal array/string passed to a non-const parameter**
@@ -298,7 +298,7 @@ public MyFunction(string[])
 public MyFunction(const string[])
 ```
 
-*______________________________________________________________________*
+<hr />
 
 - **error 025: function heading differs from prototype**
 
@@ -316,7 +316,7 @@ public OnPlayerEditAttachedObject(playerid, response, index, modelid, boneid, Fl
 public OnPlayerEditAttachedObject(playerid, EDIT_RESPONSE:response, index, modelid, boneid, Float:fOffsetX, Float:fOffsetY, Float:fOffsetZ, Float:fRotX, Float:fRotY, Float:fRotZ, Float:fScaleX, Float:fScaleY, Float:fScaleZ)
 ```
 
-*______________________________________________________________________*
+<hr />
 
 > [!NOTE]
 > There is also an upgrade tool that attempts to find old untagged and const-incorrect code and upgrade it.
