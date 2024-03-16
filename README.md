@@ -120,7 +120,7 @@ replace with
 then press **F5** to compile.
 
 > [!NOTE]
-> If you are get error or warning, See [Compiler errors and warnings](#compiler-errors-and-warnings)
+> If you are get error or warning, see [Compiler errors and warnings](#compiler-errors-and-warnings)
 
 ## Step 9
 
