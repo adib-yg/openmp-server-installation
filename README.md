@@ -283,7 +283,7 @@ Replace `GetActorPoolSize()` with `MAX_ACTORS`
 
 - **warning 234: function is deprecated (symbol "SHA256_PassHash") Use BCrypt for hashing passwords**
 
-Use the [samp-bcrypt](https://github.com/Sreyas-Sreelal/samp-bcrypt) plugin for hashing passwords
+Use the [samp-bcrypt](https://github.com/Sreyas-Sreelal/samp-bcrypt) plugin for hashing passwords. SHA-256 is not secure.
 
 <hr />
 
@@ -326,6 +326,8 @@ public OnPlayerEditAttachedObject(playerid, EDIT_RESPONSE:response, index, model
 >  Already included in `/qawno/upgrader` folder.
 
 ## Useful documents
+Check out the new scripting functions and callbacks: https://www.open.mp/docs/server/omp-functions
+
 If you are completely new to Pawn programming: [readme-beginner](https://github.com/openmultiplayer/omp-stdlib/blob/master/documentation/readme-beginner.md)
 
 If you are an intermediate at Pawn programming: [readme-intermediate](https://github.com/openmultiplayer/omp-stdlib/blob/master/documentation/readme-intermediate.md)
