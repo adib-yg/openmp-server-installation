@@ -22,6 +22,7 @@
 - [Step 10](#step-10)
 - [Step 11](#step-11)
 - [Compiler errors and warnings](#compiler-errors-and-warnings)
+- [Runtime errors and warnings](#runtime-errors-and-warnings)
 - [Useful documents](#useful-documents)
 - [Help](#help)
 
@@ -324,6 +325,39 @@ public OnPlayerEditAttachedObject(playerid, EDIT_RESPONSE:response, index, model
 > https://github.com/openmultiplayer/upgrade
 >
 >  Already included in `/qawno/upgrader` folder.
+
+## Runtime errors and warnings
+```log
+[Info] Couldn't announce legacy network to open.mp list.
+[Info] [Server Error] Status: 406
+[Info] [Server Error] Message: {"error":"failed to query server: socket read timed out"}
+[Info] This won't affect the server's behaviour.
+```
+
+- Your server is not accessible from the open.mp website.
+- You are probably running the server on **localhost**.
+- The firewall has blocked the connection.
+
+**This warning will not affect the behavior of the server.**
+
+<hr />
+
+```log
+[Warning] Insufficient specifiers given to `format`: "?" < 1
+```
+
+The specifiers are less than the arguments you pass in the format. For example:
+
+```pawn
+new string[32];
+new mp[32] = ".MP";
+
+format(string, sizeof(string), "OPEN", mp);
+// [Warning] Insufficient specifiers given to `format`: "OPEN" < 1
+
+// Should be:
+format(string, sizeof(string), "OPEN%s", mp);
+```
 
 ## Useful documents
 Check out the new scripting functions and callbacks: https://www.open.mp/docs/server/omp-functions
