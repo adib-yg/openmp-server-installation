@@ -335,7 +335,7 @@ public OnPlayerEditAttachedObject(playerid, EDIT_RESPONSE:response, index, model
 ```
 
 - Your server is not accessible from the open.mp website.
-- You are probably running the server on **localhost**.
+- You are probably running the server locally.
 - The firewall has blocked the connection.
 
 **This warning will not affect the behavior of the server.**
