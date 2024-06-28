@@ -357,6 +357,7 @@ format(string, sizeof(string), "OPEN", mp);
 
 // Should be:
 format(string, sizeof(string), "OPEN%s", mp);
+//                                  ^^
 ```
 
 ## Useful documents
