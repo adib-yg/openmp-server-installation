@@ -369,6 +369,8 @@ If you are an intermediate at Pawn programming: [readme-intermediate](https://gi
 
 If you are an expert at Pawn programming: [readme-expert](https://github.com/openmultiplayer/omp-stdlib/blob/master/documentation/readme-expert.md)
 
+Blog post: [Porting to open.mp](https://www.open.mp/blog/porting)
+
 ## Help
 If you still have issues running the server, please join the [official open.mp Discord server](https://discord.gg/samp)
 
