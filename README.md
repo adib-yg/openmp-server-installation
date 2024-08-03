@@ -372,8 +372,6 @@ If you are an expert at Pawn programming: [readme-expert](https://github.com/ope
 Blog post: [Porting to open.mp](https://www.open.mp/blog/porting)
 
 ## Help
-If you still have issues running the server, please join the [official open.mp Discord server](https://discord.gg/samp)
+If you still have issues running the server, please join the official open.mp Discord server: https://discord.gg/samp
 
-https://discord.gg/samp
-
-Ask at [#openmp-support](https://discord.com/channels/231799104731217931/966398440051445790)
+Ask in [#openmp-support](https://discord.com/channels/231799104731217931/966398440051445790) channel.
